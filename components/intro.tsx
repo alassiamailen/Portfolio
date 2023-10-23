@@ -36,9 +36,9 @@ export default function Intro() {
            </div>
         </div>
         <motion.h1 initial={{opacity:0,y:100}} animate={{opacity:1,y:0}} className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'>
-        <span className="font-bold">Hello, I'm Mailen.</span> I'm a{" "}
+        <span className="font-bold">Hello, I m Mailen.</span> I m a{" "}
         <span className="font-bold">full-stack developer, </span> 
-        <span className="font-bold">my passion{" "}</span>is to transform ideas into powerful and functional code. <span className="italic">I'm ready to challenge the limits</span>. I specialize in{" "}
+        <span className="font-bold">my passion{" "}</span>is to transform ideas into powerful and functional code. <span className="italic">I m ready to challenge the limits</span>. I specialize in{" "}
         <span>JavaScript and I love learning new technologies.</span>
         </motion.h1>
         <motion.div initial={{opacity:0, y:100}} animate={{opacity:1,y:0}} transition={{delay:0.1}} className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'>
