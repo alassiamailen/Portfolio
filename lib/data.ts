@@ -37,44 +37,44 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Soy Henry bootcamp",
+    location: "Argentina",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 4 months of studying.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Argentina,Bs.As",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a front-end developer for 1 month, we designed a project for a soccer club in La Plata.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "UTN-Applied Informatics",
+    location: "Argentina, Bs.As",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I am currently in my second year of the Tecnicatura Superior in Applied Informaticss",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Countries",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "I worked as a full-stack developer on this project. The platform offers data on countries, offers sorting and pagination system for easy navigation.",
+    tags: ["React", "Redux", "PostgreSQL", "Sequelize"],
      imageUrl: piCountries,
   },
   {
-    title: "rmtDev",
+    title: "A.D.I.P",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "The site offers different services for members and players. The objective of the platform is to facilitate the approach to the member, the communication and the payment of the club fee. ",
+    tags: ["React", "TypeScript", "Redux","PostgreSQL","typeORM"],
      imageUrl: Adip,
   },
   // {
@@ -89,21 +89,13 @@ export const projectsData = [
 export const skillsData = [
   "HTML",
   "CSS",
-  "JavaScript",
-  "TypeScript",
+  "JavaScript",  
   "React",
   "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
+  "Git", 
+  "Redux",  
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "PostgreSQL",  
+  "Sequelize"
 ] as const;
