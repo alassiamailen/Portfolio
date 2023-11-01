@@ -40,7 +40,7 @@ export const experiencesData = [
     title: "Soy Henry bootcamp",
     location: "Argentina",
     description:
-      "I graduated after 4 months of studying.",
+      "I graduated after 5 months of studying.",
     icon: React.createElement(LuGraduationCap),
     date: "2023",
   },
